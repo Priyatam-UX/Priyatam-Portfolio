@@ -12,30 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-	<script>
-	  function w(){
-	  event.preventDefault();
-var temp = document.getElementById("Name").value;
-
-
-if(temp==""){
-alert("can't be empty");
-
-}
-else
-{
-document.getElementById("feedback").Send Message();
-}
-
-
-
-
-}
-	  
-	  
-	  
-	  </script>
 	
+
 
 </head>
 <body>
@@ -287,7 +265,7 @@ document.getElementById("feedback").Send Message();
                 </div>
                 <div class="column right">
                     <div class="text">Message me..</div>
-                    <form onsubmit="w()" id="feedback" method="post">
+                    <form action="index.html" method="post">
                         <div class="fields">
                             <div class="field name">
 				    <label for="name">Name</label>
