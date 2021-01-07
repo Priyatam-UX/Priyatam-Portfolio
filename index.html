@@ -16,8 +16,12 @@
 
 
 </head>
-<body onload="myFunction()">
-	<div id="loading"></div>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+	<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -303,19 +307,8 @@
     </footer>
 
     <script src="script.js"></script>
-	<script>
-		// $(document).ready(function(){
-			// 	$('div#loading').removeAttr('id');
-		// });
-		var preloader = document.getElementById("loading");
-		// window.addEventListener('load', function(){
-		// 	preloader.style.display = 'none';
-		// 	})
-
-		function myFunction(){
-			preloader.style.display = 'none';
-		};
-	</script>
+	<script src="custom.js"></script>
+	
 	
 </body>
 </html>
